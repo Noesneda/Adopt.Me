@@ -1,0 +1,90 @@
+/* :root{
+    --width: 300px;
+    --padding: 10px;
+    --bgcolor: pink;
+    --hovercolor: yellow;
+    --width-collapsed: 50px;
+} */
+
+.logo2 {
+    height: 80px;
+    width: 80px;
+    /* border: 1px solid red; */
+    background-image: url("../../Imagenes/Adopt-Me.gif");
+    position: absolute;
+    margin-top: 60px;
+    margin-left:98px;
+    background-size: contain;
+  }
+.NavBarPAdmin{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/N2GFBVR5PFF75OS4JH3XT4GU7A.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*  position: fixed; */
+ }
+.menuCollapsed {
+    background-color: rgb(98, 182, 183);
+    opacity: 80%;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #482307;
+    height: 700px;
+    width:  22%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.items  {
+    color: green;
+}
+
+.botonesAdmin {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 80%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 05px;
+    top: 250px;
+    position: relative;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  }
+  
+  .botonesAdmin:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .botonesAdmin:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .botonesAdmin:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+}
+
+
+  

@@ -1,0 +1,9 @@
+.cartel {
+    margin-top: 90px;
+    background-color:  #6D9886;
+    width: 900px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 80px;
+    border: solid black 8px;
+}

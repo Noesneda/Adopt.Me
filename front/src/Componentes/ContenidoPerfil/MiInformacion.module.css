@@ -1,0 +1,188 @@
+/* .MiInfo {
+    border: 1px solid red;
+    display: flex; 
+    margin-left: 40px; 
+    font-family: 'Viga', sans-serif;
+    margin-right: 200px;
+    justify-content:flex-start
+  } */
+
+  .buttons {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 00px;
+    outline: 2px solid transparent;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 200px;
+    height: 20px;
+    font-family: 'Viga', sans-serif;
+  }
+
+  .formUser{
+    width: 700px;
+    margin-left: 90px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Viga', sans-serif;
+    background-color: #F2E7D5; 
+    height: 1150px;
+  }
+
+  .input{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 2rem;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+  }
+
+  .label{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .boton{
+    
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,#6D9886, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    margin-right: 20px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    height: 60px;
+    align-items: center;
+    font-size: 17px;
+    width: 120px;
+    justify-content: center;
+  }
+  
+  .botonActualizar{
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,#6D9886, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    color: #000000;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 1000;
+    line-height: 20px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 30px 90px;
+    /* margin-right: 90px; */
+    text-align: center;
+    text-transform: none;
+    transition: all .20s cubic-bezier(.9, 0, .8, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 20px 20px rgba(0, 0, 0, 0.1),0px 2px 2px rgba(81,41,10,0.2);
+    height: 70px;
+    align-items: center;
+    font-size: 20px;
+    width: 400px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  .botonActualizar:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.811),0px 1px 1px rgba(0, 0, 0, 0.942);
+    transform: translateY(0.5rem);
+  }
+  
+  .botonActualizar:focus {
+    box-shadow: rgba(1, 1, 1, 0.856) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+  
+  .botonActualizar:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-7px);
+    background-color: white;
+    color: black;
+  }
+
+  .err{
+    color: rgb(175, 25, 25);
+    font-size: 20px;
+    font-family: 'Viga', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  @media only screen and (max-width : 900px) {
+
+    .formUser {
+      width: 300px;
+      margin-left: 1px;
+      height: 900px;
+    }
+
+    .buttons {
+      font-size: 10px;
+    }
+
+    .botonActualizar {
+      width: 200px;
+      font-size: 14px;
+      height: 50px;
+      margin-top: -20px;
+    }
+
+    .label {
+      font-size: 15px;
+    }
+
+    .input {
+      font-size: 13px;
+    }
+  }

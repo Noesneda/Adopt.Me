@@ -1,0 +1,11 @@
+.cantidadusuarios {
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin-top: -400px;
+    margin-left: 600px;
+    background-color: white;
+    position: absolute;
+    font-size: 50px;
+    width: 600px;
+    border-radius: 10px;
+}

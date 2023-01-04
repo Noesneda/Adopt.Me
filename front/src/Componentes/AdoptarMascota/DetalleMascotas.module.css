@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.paginaAdopcion {
+    background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-position: -200px; */
+    font-family: 'Viga', sans-serif;
+}
+
+.img {
+    /* border: 1px solid red; */
+    width: 700px;
+    height: 500px;  
+    margin-top: 110px;
+    margin-left: 50px;
+    /* border: inset; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cardDetalles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    background-color: #F2E7D5;
+    /* border: 2px solid yellow; */
+    width: 600px;
+    height: 1060px;
+    margin-left: 480px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+.tituloAdopcion {
+    font-size: 45px;
+    margin-top: 15px;
+    color: #6D9886;
+    text-shadow: 2px 2px rgb(38, 37, 37);
+}
+.datosAdopcion {
+    /* border: 3px solid violet; */
+    height: 100%;
+}
+
+.botonDarAdopcion{
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    margin-top: 50px;
+}
+  
+  .botonDarAdopcion:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .botonDarAdopcion:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .botonDarAdopcion:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .datos2 {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titulos2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    flex-grow: 1;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 19px;
+    text-decoration:dashed;
+  }
+
+  .details {
+    margin-left: 250px;
+    display:flex;
+    position: absolute;
+    margin-top: -28px;
+    border: 2px;
+    color: #E14D2A;
+    font-size: 16px;
+    overflow: auto;
+    /* border: 1px solid red; */
+    width: 230px;
+  }
+
+  .details2 {
+    margin-left: 250px;
+    display:flex;
+    position: absolute;
+    margin-top: -38px;
+    border: 2px;
+    color: #E14D2A;
+    font-size: 16px;
+    overflow: scroll;
+    border: 1px solid black;
+    width: 270px;
+    height: 80px;
+    margin-bottom: -10px;
+  }
+
+  .imagenMarcador {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ubicacionMascota {
+    margin-top: 140px;
+    margin-left: 9px;
+  }
+
+  .verUbicacion {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    margin-top: 50px;
+}
+  
+  .verUbicacion:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .verUbicacion:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .verUbicacion:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .avisoAdopcion {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    color: rgb(217, 15, 15);
+    margin-bottom: -40px;
+  }
+
+
+  /*////////////////////////////////////////////////////*/
+
+  @media only screen and (max-width : 900px) {
+
+    .img {
+      width: 380px;
+      height: 200px;
+      margin-left: -5px;
+     
+    }
+
+    .cardDetalles {
+      margin-left: 15px;
+      width: 380px;
+      height: 960px;
+      margin-top: 30px;
+     
+    }
+
+    .tituloAdopcion {
+      font-size: 30px;
+    }
+
+    .titulos2 {
+      font-size: 16px;
+      margin-left: 35px;
+    }
+
+    .details {
+      font-size: 16px;
+      margin-left: 200px;
+      margin-top: -20px;
+    }
+
+    .details2 {
+      font-size: 14px;
+      margin-left: 170px;
+      margin-top: -20px;
+      width: 150px;
+      height: 50px;
+      overflow-x: scroll;
+    }
+
+    .ubicacionMascota {
+      margin-left: -21px;
+      margin-top: 10px;
+    }
+
+    .verUbicacion{
+      margin-bottom: 5px;
+      margin-top: 30px;
+      margin-left: 15px;
+    }
+
+  }

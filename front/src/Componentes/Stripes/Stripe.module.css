@@ -1,0 +1,88 @@
+
+/* .imagenstripe {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://i.pinimg.com/736x/35/23/43/352343ff27c32d65f42f976abb320efb.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin-top: 100px; 
+} */
+
+.cardelement{
+/* border: 1px solid red; */
+width: 300px;
+height: 50px;
+position: relative;
+margin-top: -18px;
+/* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+border: 2px solid black;
+/* margin-top: 100px; */
+}
+
+.botonstripe {
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    position: relative;
+   
+}
+
+.stripepage {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 130px;
+    margin-left: 80px;
+    position: absolute;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+}
+
+.titulostripe {
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.botonstripe {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.botonstripe:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.botonstripe:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.botonstripe:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}

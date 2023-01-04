@@ -1,0 +1,17 @@
+
+  .error {
+    color: red;
+    font-family: 'Viga', sans-serif;
+    display: flex;  
+    position: absolute;
+    border: 1px solid blue;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-left: 300px;
+  }
+
+  .errors {
+    border: 1px solid violet;
+  }
+  

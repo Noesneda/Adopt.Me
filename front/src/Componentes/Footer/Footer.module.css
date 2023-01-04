@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+
+
+.footer {
+   background-color: #393E46;
+    display: flex;
+    height: 230px;
+    bottom:0;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 3px solid black;
+    color: #F7F7F7;
+    font-family: 'Viga', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.titulo {
+    /* border: 1px solid red; */
+    /* display: flex; */
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1800px;
+    margin-left: 460px;
+    margin-right: 90px;
+}
+
+.columna1 {
+ /* border: 1px solid green; */
+ flex-direction: column;
+ text-align: left;
+}
+
+.columna2 {
+ /* border: 1px solid yellow; */
+ flex-direction: column;
+ text-align: left;
+}
+
+.columna3 {
+ /* border: 1px solid brown; */
+ flex-direction: column;
+ text-align: left;
+}
+
+.columna4 {
+ /* border: 1px solid pink; */
+ flex-direction: column;
+ text-align: left;
+}
+
+.iconos {
+ /* border: 1px solid blue; */
+ width: 200px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: space-around;
+ width: 100px;
+}
+
+.facebook {
+ /* border: 1px solid violet; */
+ background-image: url("../../Imagenes/facebook.png");
+ background-size: contain;
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ margin-left: -2580px;
+}
+
+.facebootexto {
+    position: absolute;
+    margin-left: -2599px;
+    margin-top: 90px;
+}
+
+.instagramtexto {
+    position: absolute;
+    margin-right: 380px;
+    margin-top: 90px;
+}
+
+.instagram {
+ /* border: 1px solid fuchsia; */
+ background-image: url("../../Imagenes/instagram.png");
+ background-size: contain;
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ margin-right: 400px;
+}
+
+.columnas {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    line-height: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-right: 50px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+/*/////////////////////// MEDIA QUERIE PARA CELULARES /////////////////////////////7*/
+
+@media only screen and (max-width : 900px) {
+
+.footer {
+    font-size: 10px;
+    /* border: 1px solid red; */
+    
+}
+
+.titulo {
+    font-size: 13px;
+    width: 300px;
+    margin-left: 100px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: -40px;
+}
+
+.facebook {
+    margin-left: -700px;
+    width: 30px;
+    height: 30px;
+}
+
+.facebootexto {
+    margin-left: -720px;
+}
+
+.instagram {
+    margin-left: 275px;
+    width: 30px;
+    height: 30px;
+}
+
+.instagramtexto {
+    margin-left: 255px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-right: -20px;
+}
+
+
+
+}

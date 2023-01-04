@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+
+.card {
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 30px;
+}
+

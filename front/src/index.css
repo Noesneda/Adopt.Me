@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Viga', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+
+    font-family: 'Viga', sans-serif;
+}
+

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.registro {
+    background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    font-family: 'Viga', sans-serif;
+    font-size: 15px;
+}
+
+.buttons {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    outline: 2px solid transparent;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 100px;
+    font-family: 'Viga', sans-serif;
+  }
+  
+  .buttons:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+  .buttons:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .buttons:disabled {
+    color: grey;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgb(156, 154, 154), #beb6a7);
+    cursor: not-allowed;
+  }
+
+  .form {
+    margin-top: 60px;
+    display: flex;
+    width: 800px;
+    /* border: 2px solid blue;  */
+    justify-content: center;  
+    flex-direction: column;
+    margin-left: 400px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    background-color: #F2E7D5;
+    font-family: 'Viga', sans-serif;
+    border-radius: 10px;
+  }
+  
+  .inputs {
+    width: 200px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+
+  label {
+    font-size: 13px;
+    font-family: 'Viga', sans-serif;
+  }
+
+  .error {
+    color: red;
+    font-size: 13px;
+    font-family: 'Viga', sans-serif;
+    margin-top: 30px;
+  }
+
+  .datosRegistro {
+    
+    display: block;
+    margin-left: 00px; 
+    font-family: 'Viga', sans-serif;
+    margin-right: 00px;
+    justify-content:flex-end;
+    margin-top: 10px;
+    
+  }
+
+.titulomayor {
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 13px;
+  color: #393E46;
+  text-shadow: 2px 2px rgb(38, 37, 37);
+}
+
+.errores {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 1154px;
+  width: 200px;
+}
+
+.botonImagen {
+  border: 1px solid red;
+  height: 50px;
+  width: 200px;
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 46px;
+  margin-bottom: 30px;
+  margin-left: 98px;
+  outline: 2px solid transparent;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  font-family: 'Viga', sans-serif;
+}
+
+.botonImagen:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.botonImagen:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.err{
+  color: red;
+  font-size: 13px;
+  font-family: 'Viga', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.BotonFoto{
+  
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 00px;
+    outline: 2px solid transparent;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 200px;
+    height: 20px;
+    font-family: 'Viga', sans-serif;
+  
+}
+ 
+/*///////////////////////////////////////////////////////////*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.form {
+  margin-left: 30px;
+  width: 430px;
+}
+
+.inputs {
+  margin-left: 115px;
+}
+
+
+}

@@ -1,0 +1,10 @@
+.donaciones {
+    /* border: 1px solid red; */
+    position: absolute;
+    color: rgb(29, 109, 17);
+    background-color: white;
+    margin-top: -400px;
+    margin-left: 600px;
+    font-size: 40px;
+    border-radius: 10px;
+}

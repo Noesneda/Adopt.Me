@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.15.0",
+    "@stripe/stripe-js": "^1.45.0",
+    "connect-flash": "^0.1.1",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "react-dropzone": "^14.2.3",
+    "react-stripe-checkout": "^2.6.3",
+    "recharts": "^2.1.16",
+    "sweetalert2": "^11.6.15",
+    "sweetalert2-react-content": "^5.0.7"
+  }
+}

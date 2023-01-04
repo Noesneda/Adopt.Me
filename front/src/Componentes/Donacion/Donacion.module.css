@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.formulario {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 600px;  
+    height: 350px; 
+    margin-top: 170px;
+    justify-content: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    background-color: #F2E7D5;
+    font-family: 'Viga', sans-serif;
+}
+
+.pagina {
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid yellow; */
+    /* position: relative; */
+    height: 800px;
+    background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+}
+
+.datos {
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    }
+
+input {
+    height: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.titulo {
+    /* border: 1px solid green; */
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+}
+
+.metodosPago {
+    display: block;
+    position: absolute;
+    margin-top: 90px;
+    width: 450px;
+    height: 230px;
+    background-color: #F2E7D5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+}
+
+.opcionesDonacion {
+    margin-left: 10px;
+    width: 100px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+ .botonpaypal {
+     margin-bottom: 40px;
+ }
+
+ .botonmetamask {
+    margin-bottom: 20px ;
+ }
+
+ .botonstripes  {
+    margin-top: 160px;
+    margin-left: 54px;
+ }
+
+ .paypal {
+    background-image: url("../../Imagenes/donar-con-paypal.png");
+    background-repeat: no-repeat;
+    background-position: 35%;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 400px;
+    margin-left: 25px;
+ }
+ 
+
+ /*////////////////////////////////////////////////////////////////////////////////////////*/
+
+ @media (min-width: 481px) and (max-width: 767px) {
+
+    .formulario {
+        width: 400px;
+    }
+
+    .metodosPago {
+        width: 340px;
+    }
+
+ }

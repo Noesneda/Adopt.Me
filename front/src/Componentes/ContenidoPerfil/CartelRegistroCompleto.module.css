@@ -1,0 +1,23 @@
+.cartel {
+    margin-top: 270px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: #F2E7D5; 
+    width: 900px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 80px;
+    /* border: solid black 8px; */
+}
+
+@media only screen and (max-width : 900px) {
+
+    .cartel {
+        width: 300px;
+        margin-top: 170px;
+        margin-bottom: 200px;
+        font-size: 10px;
+        height: 140px;
+        margin-left: 1px;
+    }
+
+}

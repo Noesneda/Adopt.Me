@@ -1,0 +1,302 @@
+.paginareportar {
+  /* height: 1200px; */
+  background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'Viga', sans-serif;
+}
+
+.formul {
+  height: 1400px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 310px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+  background-color: #F2E7D5;
+  border-radius: 10px;
+}
+
+.tituloperdido {
+  margin-top: 100px;
+  color: #393E46;
+  font-size: 45px;
+  text-shadow: 2px 2px rgb(38, 37, 37);
+  font-family: 'Viga', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer2 {
+  display: flex;
+  justify-content: center;
+ 
+  width: 300px;
+  height: 200px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  /* margin-right: 150px; */
+}
+
+.botonFoto2 {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 9px 10px;
+   margin-right: 49px;
+   margin-left: 50px; 
+  margin-top: 20px;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.botonFoto2:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.botonFoto2:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.botonFoto2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-4px);  
+  background-color: white;
+  color: black;
+}
+
+.contenedordatos2 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 114px;
+
+}
+
+.gatoPerro2 {
+  width: 100px;
+  margin-left: 180px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.opciones {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+
+.botonperdido {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 9px 10px;
+  /* margin-right: 95px; */
+  margin-top: 36px;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  /* margin-right: 160px; */
+}
+
+.botonperdido:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.botonperdido:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.botonperdido:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-4px);
+  background-color: white;
+  color: black;
+}
+
+.botonubicacion {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 9px 10px;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  margin-left: 30px;
+}
+
+.botonubicacion:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.botonubicacion:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.botonubicacion:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-4px);
+  background-color: white;
+  color: black;
+}
+
+.titulos {
+  font-size: 20px;
+}
+
+.titulos2 {
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+.inputs2 {
+  margin-right: 60px;
+}
+
+.opcionesMapa {
+  
+  margin-left: 120px;
+}
+
+.textareaRepor {
+  margin-top: 30px;
+  width: 400px;
+  height: 100px;
+}
+
+.titulos {
+  margin-right: 30px;
+}
+
+.contacto {
+  margin-left: 100px;
+  color: red;
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media only screen and (max-width : 900px) {
+
+  .tituloperdido {
+    font-size: 26px;
+  }
+
+  .formul {
+    margin-left: 16px;
+    width: 380px;
+    border-radius: 10px;
+    height: 1480px;
+  }
+
+  .ps {
+    font-size: 14px;
+    width: 340px;
+    margin-left: 44px;
+  }
+
+  .botonubicacion {
+    margin-left: 18px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: -80px;
+  }
+
+  .titulos {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 26px;
+  }
+
+  .textareaRepor {
+    margin-top: 30px;
+    height: 100px;
+    width: 230px;
+  }
+
+  .botonperdido {
+    margin-top: 20px;
+  }
+
+  .imageContainer2 {
+    margin-top: 10px;
+  }
+
+  .contacto {
+    width: 370px;
+    margin-left: 110px;
+    font-size: 13px;
+  }
+
+}

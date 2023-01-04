@@ -1,0 +1,41 @@
+
+.cardExpress{
+    background-color: rgb(95, 46, 141);
+    width: 50px;
+    height: 50px;
+}
+
+.cartel {
+
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: #F2E7D5; 
+    width: 800px;
+    height: 800px;
+
+    /* margin-left: 20px; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paginado {
+    margin-left: -360px;
+    /* border: 1px solid red; */
+}
+
+
+@media only screen and (max-width : 900px) {
+
+    .paginado {
+        margin-left: -280px;
+    }
+
+    .cartel{
+        width: 300px;
+        height: 1500px;
+        margin-left: 1x;
+    }
+    
+}

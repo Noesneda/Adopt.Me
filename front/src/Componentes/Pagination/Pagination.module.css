@@ -1,0 +1,85 @@
+
+
+ .pagination {
+       display:flex;   
+      padding: 30px;   
+    cursor: pointer; 
+     position: relative;
+     justify-content: center;
+     flex-wrap: wrap;
+     /* border: 1px solid red; */
+     width: 1200px;
+     margin-left: 176px;
+} 
+
+.buttonpaging {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 9px 10px;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  margin-right: 30px;
+  width: 60px;
+  height: 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonpaging:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.buttonpaging:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.buttonpaging:disabled {
+  pointer-events: none;
+}
+
+.buttonpaging:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-4px);
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width : 900px) {
+
+.pagination {
+  width: 460px;
+}
+
+.buttonpaging {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  align-items: center;
+}
+
+}
+
+
+
+
+    

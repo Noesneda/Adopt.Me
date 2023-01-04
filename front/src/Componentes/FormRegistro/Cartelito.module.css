@@ -1,0 +1,44 @@
+.Cartelito{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 900px;
+    height: 250px;
+    background-color: #F2E7D5;
+    border-radius: 20px;
+    border: solid 5px black;
+    margin-left: 400px;
+
+}
+
+.boton {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    outline: 2px solid transparent;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 100px;
+    font-family: 'Viga', sans-serif;
+  }

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+
+.listadoCards {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    font-family: 'Viga', sans-serif;
+}
+
+.tituloPerros {
+    font-family: 'Viga', sans-serif;
+    margin-top: 40px;
+    font-size: 45px;
+    color: #393E46;
+    text-shadow: 2px 2px rgb(38, 37, 37);
+     
+}
+
+.paginaadopcionperros {
+    background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-position: -130px; */
+}
+
+.labelSearch {
+    
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-family: 'Viga', sans-serif;
+    font-size: 20px;
+}
+
+.inputNav {
+    border: 2px solid black;
+    height: 26px;
+    font-family: 'Viga', sans-serif;
+}
+
+.filtros {
+    font-family: 'Viga', sans-serif;
+    display: flex;
+    margin-left: 500px;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+
+.op {
+    width: 80px;
+    border: 2px solid black;
+    font-family: 'Viga', sans-serif;
+}
+
+
+.btnNav {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 60px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+  
+  .btnNav:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .btnNav:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .btnNav:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .btnNavHome {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 120px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+  
+  .btnNavHome:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .btnNavHome:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .btnNavHome:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .btnMap {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 300px;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+    /* margin-top: 10px; */
+    justify-content: center;
+}
+  
+  .btnMap:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .btnMap:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .btnMap:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .ico {
+    background-image: url("../../Imagenes/map.png");
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute; 
+    margin-left: 550px;
+    margin-top: -4px;
+  }
+
+  /*////////////////////////////////// MEDIA QUERIE CELULARES //////////////////////////////7*/
+
+
+  @media only screen and (max-width : 900px) {
+
+
+    .filtros {
+      position: absolute;
+      margin-left: 20px;
+      width: 370px;
+    }
+
+    .btnNavHome {
+      margin-top: 40px;
+    }
+
+    .paginado {
+      margin-left: -180px;
+      margin-bottom: -100px;
+    }
+
+    .ico {
+      margin-right: -210px;
+      margin-left: 24px;
+    }
+
+    .btnMap {
+      margin-left: 35px;
+    }
+
+    .listadoCards {
+      margin-left: -32px;
+    }
+    
+    .tituloPerros {
+      font-size: 30px;
+      margin-bottom: -25px;
+    }
+  }

@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+
+.formDarAdopcion {
+    /* height: 800px; */
+    background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Viga', sans-serif;
+}
+
+.formularito {
+    height: 1800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 370px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    background-color: #F2E7D5;
+    border-radius: 10px;
+}
+
+.titulo {
+    margin-top: 40px;
+    color: #393E46;
+    font-size: 45px;
+    text-shadow: 2px 2px rgb(38, 37, 37);
+    font-family: 'Viga', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.opciones {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.gatoPerro {
+    width: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.titulos {
+    font-size: 15px;
+}
+
+.boton {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    margin-right: 155px;
+    margin-top: 36px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  }
+  
+  .boton:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .boton:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .boton:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .imagePreview {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    background-image: url("https://www.sourcedogg.com/wp-content/uploads/2015/05/default-placeholder.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: -150px;
+    margin-bottom: 50px;
+  
+  }
+
+  .imagePreview img {
+    width: 180px;
+    height: 180px;
+    margin-left: 48px;
+    z-index: 1;
+  }
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+   
+    width: 300px;
+    height: 200px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+  }
+
+  .botonFoto {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+     margin-right: 49px;
+     margin-left: 50px; 
+    margin-top: 20px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .botonFoto:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .botonFoto:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .botonFoto:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);  
+    background-color: white;
+    color: black;
+  }
+
+  .botonUbicacion {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    margin-right: 224px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+    width: 140px;
+    height: 30px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+  
+  .botonUbicacion:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .botonUbicacion:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .botonUbicacion:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .contenedordatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 68px;
+
+  }
+
+  .error {
+    color: red;
+    position: absolute;
+    display: flex;
+    font-size: 12px;
+   margin-bottom: -17px;
+  }
+
+textarea {
+  resize: none;
+}
+
+.botonMapa2 {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 9px 10px;
+  /* border: 1px solid blue; */
+  margin-left: 10px;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  width: 200px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.botonMapa2:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.botonMapa2:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.botonMapa2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-4px);
+  background-color: white;
+  color: black;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs3 {
+  margin-left: 30px;
+}
+
+.textareaDonar {
+  width: 400px;
+  height: 100px;
+}
+
+.mapaInfo {
+  margin-top: 60px;
+}
+
+.contenedorMapa {
+  /* border: 1px solid red; */
+  margin-left: 40px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////7*/
+
+
+@media only screen and (max-width : 900px) {
+
+  .titulo {
+    font-size: 26px;
+    margin-top: 60px;
+  }
+
+  .formularito {
+    border-radius: 10px;
+    margin-left: 16px;
+    width: 380px;
+    height: 1900px;
+  }
+
+  .imageContainer {
+    margin-right: 40px;
+    margin-top: -10px;
+    margin-left: -40px;
+    /* border: 1px solid red; */
+  }
+
+  .contenedordatos {
+    margin-right: -13px;
+    width: 400px;
+  }
+
+  .mapaInfo {
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 320px;
+    font-size: 15px;
+    /* border: 1px solid red; */
+  }
+
+  .botonMapa2 {
+    margin-bottom: -60px;
+    width: 100px;
+    margin-right: 32px;
+    font-size: 12px;
+  }
+
+  .boton {
+    /* border: 1px solid red; */
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .contenedorMapa {
+    margin-right: 30px;
+  }
+
+  .textareaDonar {
+    width: 350px;
+    margin-left: -8px;
+  }
+
+  .titulos {
+    font-size: 12px;
+  }
+
+}

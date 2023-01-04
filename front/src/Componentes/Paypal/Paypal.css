@@ -1,0 +1,17 @@
+#paypal-button-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+ 
+    padding: 60px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #paypal-button-container {
+        width: 250px;
+        margin-left: 35px;
+    }
+    
+    }

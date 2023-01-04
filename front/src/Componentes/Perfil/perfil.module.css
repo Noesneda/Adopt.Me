@@ -1,0 +1,140 @@
+
+.container{
+  background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.miniContainer{
+    display: flex ;
+    width: 80%;
+    height: 100;
+    margin-top: 0px;
+    margin-left: 100px;
+    background-color: rgba(255, 255, 255, 0);
+   
+}
+
+.sideBar{
+    background-color: rgba(255, 255, 255, 0);
+    width: 30%;
+    height: 100;
+    margin-top: 100px;
+    
+}
+
+
+.datos {
+  width: 300px;
+  
+}
+
+ .boton{
+    
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom,#6D9886, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 9px 10px;
+  margin-right: 20px;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  height: 60px;
+  align-items: center;
+  font-size: 17px;
+  width: 120px;
+  justify-content: center;
+  
+} 
+
+.botonSideBar{
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom,#6D9886, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  color: #000000;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Viga', sans-serif;  font-size: 100%;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0;
+  outline: 2px solid transparent;
+  /* padding: 30px 90px; */
+  margin-right: 90px;
+  text-align: center;
+  text-transform: none;
+  transition: all .20s cubic-bezier(.9, 0, .8, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 20px 20px rgba(0, 0, 0, 0.1),0px 2px 2px rgba(81,41,10,0.2);
+  height: 70px;
+  align-items: center;
+  font-size: 23px;
+  width: 200px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.botonSideBar:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.811),0px 1px 1px rgba(0, 0, 0, 0.942);
+  transform: translateY(0.5rem);
+}
+
+.botonSideBar:focus {
+  box-shadow: rgba(1, 1, 1, 0.856) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.botonSideBar:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-7px);
+  background-color: white;
+  color: black;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////77*/
+
+@media only screen and (max-width : 900px) {
+
+  .sideBar {
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    position: absolute;
+    
+  }
+
+  .botonSideBar {
+    width: 60px;
+    height: 50px;
+    /* border: 1px solid green; */
+    font-size: 10px;
+    border-radius: 5px;
+    margin-left: -140px;
+    margin-top: 20px;
+  }
+
+
+}
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.pagina {
+    background-image: url("../../Imagenes/Pet-Slide-Backgrounds.jpg");
+    background-size: 100% 100%;
+    font-family: 'Viga', sans-serif;
+    background-repeat: no-repeat;
+    /* background-position: -130px; */
+}
+
+.titulo {
+    font-family: 'Viga', sans-serif;
+    font-size: 55px;
+    text-shadow: 2px 2px rgb(38, 37, 37);
+    color: #393E46;
+}
+
+.boton {
+    appearance: button;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Viga', sans-serif;  font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    outline: 2px solid transparent;
+    padding: 9px 10px;
+    margin-right: 40px;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  }
+  
+  .boton:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
+  
+ .boton:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
+
+  .boton:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+  }
+
+  .vacunacion {
+    background-image: url("../../Imagenes/vacunacion.jpg");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+    background-size: contain;
+    margin-left: 410px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .texto {
+    font-size: 20px;
+  }
+
+  iframe {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .veterinarias {
+    margin-top: 90px;
+  }
+
+  @media only screen and (max-width : 900px) {
+
+    iframe {
+      width: 350px;
+      margin-left: 10px;
+    }
+
+    .titulo {
+      font-size: 30px;
+      margin-top: 50px;
+    }
+
+    .vacunacion {
+      margin-left: 40px;
+      width: 350px;
+    }
+
+    .boton {
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+      margin-top: -120px;
+    }
+
+    .texto {
+      font-size: 15px;
+      width: 300px;
+      margin-left: 70px;
+    }
+  
+  }

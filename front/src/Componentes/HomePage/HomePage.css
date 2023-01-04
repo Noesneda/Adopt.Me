@@ -1,0 +1,236 @@
+:root {
+    --paper-shadow: #c9bf8d;
+  }
+  
+  .paper {
+    --paper-dark: #e5c93d;
+    --paper-color: #ffed87;
+    /* border: 1px solid red; */
+    position: absolute;
+    display: flex;
+    margin-left: 670px;
+    margin-top: 260px;
+    justify-content: center;
+    min-width: 225px;
+    min-height: 175px;
+    z-index: +1;
+    background: linear-gradient(
+      135deg,
+      var(--paper-dark),
+      30%,
+      var(--paper-color)
+    );
+    box-shadow: 3px 3px 2px var(--paper-shadow);
+    transform: rotate(10deg);
+    transform-origin: top left;
+  }
+  
+  .paper p {
+    margin: auto;
+  }
+  
+  .pin {
+    --pin-color: #d02627;
+    --pin-dark: #9e0608;
+    --pin-light: #fc7e7d;
+  
+    position: absolute;
+    left: 20px;
+    width: 60px;
+    height: 50px;
+  }
+  
+  .shadow {
+    position: absolute;
+    top: 18px;
+    left: -8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: radial-gradient(var(--paper-shadow), 20%, rgba(201, 191, 141, 0));
+  }
+  
+  .metal {
+    position: absolute;
+    width: 5px;
+    height: 20px;
+    background: linear-gradient(to right, #808080, 40%, #eae8e8, 50%, #808080);
+    border-radius: 0 0 30% 30%;
+    transform: rotate(50deg);
+    transform-origin: bottom left;
+    top: 15px;
+    border-bottom: 1px solid #808080;
+  }
+  
+  .bottom-circle {
+    position: absolute;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--pin-color);
+    background: radial-gradient(
+      circle at bottom right,
+      var(--pin-light),
+      25%,
+      var(--pin-dark),
+      90%,
+      var(--pin-color)
+    );
+  }
+  
+  /* Barrel */
+  .bottom-circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 20px;
+    height: 30px;
+    transform: rotate(55deg);
+    transform-origin: 100% 100%;
+    border-radius: 0 0 40% 40%;
+    background: linear-gradient(
+      to right,
+      var(--pin-dark),
+      30%,
+      var(--pin-color),
+      90%,
+      var(--pin-light)
+    );
+  }
+  
+  /* Top circle */
+  .bottom-circle::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle at right,
+      var(--pin-light),
+      30%,
+      var(--pin-color),
+      var(--pin-dark) 80%
+    );
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1576 {
+  background-color: #fff;
+  color: #444;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 8px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid red; */
+  border-radius: 5%;
+}
+
+.snip1576 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1576:after {
+  background-color: #6D9886;
+  height: 150%;
+  bottom: -145%;
+  content: '';
+  left: 0;
+  right: 0;
+  position: absolute;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.snip1576 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1576 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1576 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1576 h3 span {
+  display: block;
+  font-weight: 700;
+}
+
+.snip1576 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1576:hover > img,
+.snip1576.hover > img {
+  opacity: 0.1;
+}
+
+.snip1576:hover:after,
+.snip1576.hover:after {
+  bottom: 95%;
+}
+
+.snip1576:hover figcaption,
+.snip1576.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+
+@media only screen and (max-width : 900px) {
+  .paper {
+    margin-left: 90px;
+    margin-top: 570px;
+    min-width:  275px;
+    min-height: 115px;  
+  }
+
+  .snip1576 {
+    /* border: 1px solid red; */
+    width: 60px;
+  }
+
+}
+
+  
